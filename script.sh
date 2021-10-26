@@ -1,5 +1,6 @@
 #!/bin/bash
 
+echo "HELLO WORLD!"
 echo "VERCEL_ENV: $VERCEL_ENV"
 
 if [[ "$VERCEL_ENV" == "production" ]] ; then
